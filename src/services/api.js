@@ -17,7 +17,11 @@ export const getDigimon = async (name) => {
 export const getRandomDigimon = async () => {
   try {
     // A API não tem um endpoint aleatório, então vamos usar alguns populares
-    const digimons = ['agumon', 'gabumon', 'patamon', 'gatomon', 'tentomon'];
+    const digimons = ['angemon', 'devimon', 'ogremon', 'leomon', 'elecmon', 'sukamon', 'numemon', 'monzaemon', 'unimon', 'tyrannomon',
+  'flamedramon', 'raidramon', 'magnamon', 'imperialdramon', 'stingmon','dinobeemon', 'paildramon', 'shakkoumon', 'silphymon',
+  'guilmon', 'renamon', 'terriermon', 'lopmon', 'impmon', 'beelzemon', 'sakuyamon', 'justimon', 'dukemon',
+  'agunimon', 'burninggreymon', 'kumamon', 'kazarimon','shoutmon', 'ballistamon', 'dorulumon', 'cutemon',
+  'lunamon', 'coronamon', 'dianamon', 'apollomon', 'commandramon', 'sealsdramon', 'darkdramon','lilithmon', 'mastemon', 'omnimon'];
     const randomIndex = Math.floor(Math.random() * digimons.length);
     return await getDigimon(digimons[randomIndex]);
   } catch (error) {

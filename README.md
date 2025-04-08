@@ -1,4 +1,4 @@
-## 📜 Digimon Encyclopedia - React + Axios
+## 📜 Hospedando API de Digimon - React + Axios
 Bem-vindo ao Digimon Encyclopedia! Esta aplicação React consome a DigiAPI para exibir informações sobre Digimons, incluindo nome, nível, tipo, atributo e uma imagem.
 
 ## 🔹 Tecnologias usadas:
@@ -10,9 +10,7 @@ Bem-vindo ao Digimon Encyclopedia! Esta aplicação React consome a DigiAPI para
 - CSS modular
 
 ## 🖥️ Como a Aplicação Funciona
-Ao carregar a página, a aplicação busca um Digimon aleatório (Agumon, Gabumon, Patamon, Gatomon ou Tentomon).
-
-Exibe as seguintes informações:
+Ao carregar a página, a aplicação busca um Digimon aleatório e exibe as seguintes informações:
 
 Nome
 
@@ -23,6 +21,8 @@ Tipo (Réptil, Animal, etc.)
 Atributo (Vaccine, Data, Virus, etc.)
 
 Imagem do Digimon
+
+Descrição do Digimon
 
 O botão "Novo Digimon" busca outro Digimon aleatório.
 
@@ -35,7 +35,7 @@ Passo a Passo
 1. Clone o repositório (ou baixe o ZIP)
 
 - git clone https://github.com/LuisCantieri/digi-api.git
-cd digi-api
+- cd digi-api
 
 2. Instale as dependências
 - npm install 
