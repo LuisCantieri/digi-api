@@ -24,6 +24,8 @@ Atributo (Vaccine, Data, Virus, etc.)
 
 Imagem do Digimon
 
+Descrição do Digimon
+
 O botão "Novo Digimon" busca outro Digimon aleatório.
 
 ## 🛠️ Como Rodar o Projeto Localmente
