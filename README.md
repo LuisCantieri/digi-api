@@ -1,5 +1,5 @@
 ## 📜 Hospedando API de Digimon - React + Axios
-Bem-vindo ao Digimon Encyclopedia! Esta aplicação React consome a DigiAPI para exibir informações sobre Digimons, incluindo nome, nível, tipo, atributo e uma imagem.
+ Esta aplicação React consome a uma API de Digimon para exibir informações sobre Digimons, incluindo nome, nível, tipo, atributo e uma imagem.
 
 ## 🔹 Tecnologias usadas:
 
