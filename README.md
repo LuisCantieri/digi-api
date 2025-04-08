@@ -10,9 +10,7 @@ Bem-vindo ao Digimon Encyclopedia! Esta aplicação React consome a DigiAPI para
 - CSS modular
 
 ## 🖥️ Como a Aplicação Funciona
-Ao carregar a página, a aplicação busca um Digimon aleatório (Agumon, Gabumon, Patamon, Gatomon ou Tentomon).
-
-Exibe as seguintes informações:
+Ao carregar a página, a aplicação busca um Digimon aleatório e exibe as seguintes informações:
 
 Nome
 
