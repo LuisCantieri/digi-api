@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+## 📜 Digimon Encyclopedia - React + Axios
+Bem-vindo ao Digimon Encyclopedia! Esta aplicação React consome a DigiAPI para exibir informações sobre Digimons, incluindo nome, nível, tipo, atributo e uma imagem.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 🔹 Tecnologias usadas:
 
-## Available Scripts
+- React.js
 
-In the project directory, you can run:
+- Axios (para requisições HTTP)
 
-### `npm start`
+- CSS modular
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🖥️ Como a Aplicação Funciona
+Ao carregar a página, a aplicação busca um Digimon aleatório (Agumon, Gabumon, Patamon, Gatomon ou Tentomon).
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Exibe as seguintes informações:
 
-### `npm test`
+Nome
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Nível (Rookie, Champion, etc.)
 
-### `npm run build`
+Tipo (Réptil, Animal, etc.)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Atributo (Vaccine, Data, Virus, etc.)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Imagem do Digimon
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+O botão "Novo Digimon" busca outro Digimon aleatório.
 
-### `npm run eject`
+## 🛠️ Como Rodar o Projeto Localmente
+Pré-requisitos
+✅ Node.js instalado
+✅ Git (opcional, caso queira clonar o repositório)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Passo a Passo
+1. Clone o repositório (ou baixe o ZIP)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- git clone https://github.com/LuisCantieri/digi-api.git
+cd digi-api
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+2. Instale as dependências
+- npm install 
+- npm install axios
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+3. Execute o projeto
+npm start
+- A aplicação abrirá automaticamente no navegador em http://localhost:3000.
 
-## Learn More
+## 📂 Estrutura do Projeto
+**src**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+ **components**
+ - container.js  - Exibe os dados do Digimon
+ - header.js     - Cabeçalho da aplicação
+ 
+ 
+ **services**
+ - api.js - Configuração do Axios e chamadas à API
+ 
+ 
+ **styles**
+ - body.css      - Estilos globais
+ - header.css    - Estilos do cabeçalho
+ - container.css - Estilos do card do Digimon
+ 
+ 
+ **App.js (fora do scr)** - Componente principal
