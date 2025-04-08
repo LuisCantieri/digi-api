@@ -40,7 +40,6 @@ const Container = () => {
           <p><strong>Level:</strong> {digimon.levels[0]?.level || 'Unknown'}</p>
           <p><strong>Type:</strong> {digimon.types[0]?.type || 'Unknown'}</p>
           <p><strong>Attribute:</strong> {digimon.attributes[0]?.attribute || 'Unknown'}</p>
-          <p><strong>Description:</strong> {digimon.descriptions[0]?.description || 'No description available'}</p>
         </div>
         <button onClick={handleRefresh} className="refresh-button">
           Novo Digimon
