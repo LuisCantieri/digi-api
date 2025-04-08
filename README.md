@@ -37,7 +37,7 @@ Passo a Passo
 1. Clone o repositório (ou baixe o ZIP)
 
 - git clone https://github.com/LuisCantieri/digi-api.git
-cd digi-api
+- cd digi-api
 
 2. Instale as dependências
 - npm install 
