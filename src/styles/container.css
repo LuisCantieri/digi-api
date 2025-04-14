@@ -49,3 +49,33 @@
   padding: 20px;
   font-size: 1.2em;
 }
+
+.error-container {
+  text-align: center;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.error-container h2 {
+  color: #c62828;
+}
+
+.retry-button {
+  background-color: #ff5722;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1em;
+  margin-top: 15px;
+  transition: background-color 0.3s;
+}
+
+.retry-button:hover {
+  background-color: #e64a19;
+}
+
+/* Mantenha os estilos existentes... */
